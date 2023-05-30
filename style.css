@@ -1,0 +1,61 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px 2px;
+    background-color: palevioletred;
+    height: 50px;
+    font-size: x-large;
+}
+
+.header div:hover {
+    cursor: crosshair;
+    color: aqua;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navigation nav:hover  {
+    cursor: cell;
+    color: aqua;
+}
+
+.navigation hr {
+    width: 80px
+}
+
+.navigation b {
+    border: 3px solid;
+}
+
+.site-body button {
+    background-color: darkviolet;
+    color: white;
+    border-radius: 20px;
+    width: 80px;
+    height: 30px;
+    border: none;
+}
+
+.site-body button:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.site-body {
+    display: flex;
+    justify-content: space-between;
+    margin: 120px;
+    font-style: italic;
+}
+
+.site-body img {
+    height: 800px;
+    width: 550px;
+}
+
+body {
+    background-color: blanchedalmond;
+}
